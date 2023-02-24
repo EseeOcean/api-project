@@ -1,0 +1,82 @@
+body {
+    background-color: burlywood;
+}
+
+input {
+    background-color: whitesmoke;
+    font: 20px system-ui;
+    color: black;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+}
+
+ul {
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.wrapper {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(112, 5, 64);
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+  }
+  
+.oval {
+    height: 30px;
+    width: 28px;
+    background-color: rgb(221, 154, 12);
+    border-radius: 50%;
+    z-index: 5;
+    position: absolute;
+
+    
+  }
+
+  
+.square {
+    height: 80px;
+    width: 80px;
+    background-color: rgb(4, 143, 62);
+    /* border-radius: 15%; */
+    z-index: 1;
+    position: absolute;
+    opacity: 0.79;
+  }
+
+  .square2 {
+    height: 80px;
+    width: 80px;
+    background-color: rgb(132, 3, 197);
+    border-radius: 15%;
+    z-index: 1;
+    position: absolute;
+    opacity: 0.79;
+  }
+
+  .square3 {
+    height: 90px;
+    width: 90px;
+    background-color: rgb(132, 3, 197);
+    border-radius: 15%;
+    z-index: 1;
+    position: absolute;
+    opacity: 0.79;
+    rotate: 180;
+  }
